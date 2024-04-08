@@ -1,0 +1,17 @@
+{
+  "name": "dev.unlockedstudios.gamelogger",
+  "version": "1.0.0",
+  "displayName": "Game Object Logger with Serilog",
+  "description": "A tool made to log data via serilog.",
+  "unity": "2022.3",
+  "keywords": [
+    "unlockedstudios",
+    "gameLogger",
+	"Logger",
+    "Serilog"
+  ],
+  "author": {
+    "name": "Unlocked Studios",
+	"developers": "Fuzzy, Ron, Hooch"
+  }
+}
