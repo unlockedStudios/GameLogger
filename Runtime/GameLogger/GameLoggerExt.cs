@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace UnlockedStudios.Logger
+namespace UnlockedStudios.GameLogger.Logger
 {
     public static class GameLoggerExt
     {

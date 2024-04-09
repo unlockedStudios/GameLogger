@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace UnlockedStudios.Logger
+namespace UnlockedStudios.GameLogger.Logger
 {
     public interface IGameLogger
     {

@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace UnlockedStudios.Logger
+namespace UnlockedStudios.GameLogger.Logger
 {
     public class GameLogger : IGameLogger
     {
