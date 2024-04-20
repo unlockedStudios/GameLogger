@@ -1,0 +1,5 @@
+.notification-label-font {
+    -unity-font-definition: url('project://database/Assets/_GameFiles/UIToolKit/Font%20Assets/CrimsonPro-Regular%20SDF.asset?fileID=11400000&guid=f0a66dc060ad73446ab5d357cc2303bc&type=2#CrimsonPro-Regular SDF');
+    color: rgb(215, 215, 215);
+    font-size: 12px;
+}

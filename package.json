@@ -1,6 +1,6 @@
 {
   "name": "dev.unlockedstudios.gamelogger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Game Object Logger with Serilog",
   "description": "A tool made to log data via serilog.",
   "unity": "2022.3",
