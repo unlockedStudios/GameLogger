@@ -1,0 +1,113 @@
+# Normalize text by default
+* text=auto
+
+## Unity ##
+*.cs              text diff=csharp eol=lf
+*.shader          text eol=lf
+*.compute         text eol=lf
+*.glsl            text eol=lf
+*.hlsl            text eol=lf
+*.cginc           text eol=lf
+*.asmdef          text eol=lf
+*.asmref          text eol=lf
+*.json            text eol=lf
+*.xml             text eol=lf
+*.yml             text eol=lf
+*.yaml            text eol=lf
+*.toml            text eol=lf
+*.ini             text eol=lf
+*.cfg             text eol=lf
+*.config          text eol=lf
+*.md              text eol=lf
+*.txt             text eol=lf
+*.csv             text eol=lf
+*.plist           text eol=lf
+# UI Toolkit assets
+*.uxml            text eol=lf
+*.uss             text eol=lf
+*.tss             text eol=lf
+# Shader Graph assets
+*.shadergraph     text eol=lf
+*.shadersubgraph  text eol=lf
+
+# Optional: If you store editor scripts/config
+*.editorconfig  text eol=lf
+*.ruleset       text eol=lf
+
+# Unity-specific YAML files to be merged using UnityYAMLMerge
+*.meta                -text merge=unityyamlmerge diff
+*.prefab              -text merge=unityyamlmerge diff
+*.unity               -text merge=unityyamlmerge diff
+*.asset               -text merge=unityyamlmerge diff
+*.mat                 -text merge=unityyamlmerge diff
+*.anim                -text merge=unityyamlmerge diff
+*.controller          -text merge=unityyamlmerge diff
+*.overrideController  -text merge=unityyamlmerge diff
+*.physicMaterial      -text merge=unityyamlmerge diff
+*.physicsMaterial2D   -text merge=unityyamlmerge diff
+*.mask                -text merge=unityyamlmerge diff
+*.renderTexture       -text merge=unityyamlmerge diff
+*.spriteatlas         -text merge=unityyamlmerge diff
+*.terrainlayer        -text merge=unityyamlmerge diff
+*.mixer               -text merge=unityyamlmerge diff
+*.shadervariants      -text merge=unityyamlmerge diff
+*.preset              -text merge=unityyamlmerge diff
+# Timeline assets
+*.playable            -text merge=unityyamlmerge diff
+*.signal              -text merge=unityyamlmerge diff
+# VFX Graph asset
+*.vfx                 -text merge=unityyamlmerge diff
+
+# Binary formats (explicitly binary)
+*.jpg    binary
+*.jpeg   binary
+*.png    binary
+*.psd    binary
+*.tga    binary
+*.tif    binary
+*.hdr    binary
+*.tiff   binary
+*.dds    binary
+*.exr    binary
+*.psb    binary
+*.webp   binary
+*.gif    binary
+*.bmp    binary
+
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.aif    binary
+*.aiff   binary
+
+*.mp4    binary
+*.mov    binary
+*.avi    binary
+*.mkv    binary
+*.webm   binary
+
+*.fbx    binary
+*.obj    binary
+*.blend  binary
+*.dae    binary
+*.abc    binary
+*.glb    binary
+
+*.ttf    binary
+*.otf    binary
+*.woff   binary
+*.woff2  binary
+
+*.dll    binary
+*.exe    binary
+*.pdb    binary
+*.so     binary
+*.dylib  binary
+*.bin    binary
+
+*.zip    binary
+*.7z     binary
+*.rar    binary
+*.tar    binary
+*.gz     binary
+*.unitypackage binary
